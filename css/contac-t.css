@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../imgs/Blue\ Simple\ Modern\ Business\ Conference\ Zoom\ Virtual\ Background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Contact {
+    width: 600px;
+    background: transparent;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding: 30px 40px;
+}
+
+.Contact h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.Contact .inpot {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255, .2);
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.inpot input::placeholder {
+    color: white;
+}
+
+.Contact .remember-me {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.remember label input {
+    accent-color: #fff;
+    margin-right: 3px;
+    border-radius: 90px;
+}
+
+.remember a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
+
+
+.Contact .btn {
+    width: 30%;
+    margin-left: 70px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600
+}
+.btn-btn {
+    padding-top: 15px;
+}

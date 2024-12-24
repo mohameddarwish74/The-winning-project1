@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background: url(../imgs/rejes.jpg)no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 420px;
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 30px 40px;
+    background: transparent;
+    border-radius: 12px;
+    border: 2px solid rgb(255, 255, 255, .2);
+
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.container .inpot-box {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    margin: 10px 0;
+}
+
+.container .btn {
+    width: 100%;
+    height: 45px;
+    margin: 3px 0;
+    position: relative;
+    /*color: white;
+    */
+    margin-top: 20px;
+    /*background: #fff;
+    */
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    /*box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    */
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.inpot-box input {
+    width: 60%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255, .2);
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+
+}
+
+.inpot-box input::placeholder {
+    color: white;
+}
+
+
+button {
+    border-radius: 30px;
+    width: 100px;
+    height:30px;
+    margin-left: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.container button {
+    margin-left: 50px;
+    background-color: #362c85 ;
+    color: white;
+}
+    
+/* .container .reset {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+} */
